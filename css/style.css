@@ -1,0 +1,41 @@
+
+/* overide the bootstrap fonts */
+body{
+  font-family: monospace !important;
+}
+
+/* Paragraph blur styles */
+
+.blurWrapper{
+  margin: 2em 30%;
+}
+
+.inputToggle{
+  float: right;
+}
+
+.blurTitle {
+  display: inline;
+  font-size: 2em;
+}
+
+.blurParagraph {
+  margin: 2em 10%;
+}
+
+.blur {
+  font-weight: 100;
+  display: inline;
+  color: transparent;
+  text-shadow: #aaa 0 0 4px;
+}
+
+.noBlur {
+  display: inline;
+  color: #111;
+}
+
+.actionCall{
+  margin: 1em;
+  float: right;
+}

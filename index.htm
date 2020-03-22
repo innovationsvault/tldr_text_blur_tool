@@ -1,0 +1,65 @@
+<!doctype html>
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <title>tldr_textBlur</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link type="text/css" rel="stylesheet" href="css/style.css">
+  <link type="text/css" rel="stylesheet" href="css/rcswitcher.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/rcswitcher.js"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <script src="https://kit.fontawesome.com/fc8f3a1a7e.js"></script>
+</head>
+
+<body>
+
+  <div class="blurWrapper">
+    <div class="permissions">
+      <p class="blurTitle">An interesting Article.</p>
+      <input type="checkbox" class="inputToggle" id="switch1" name="switch1" value="switch1" checked>
+    </div>
+    <div id="paragraph1" class="blurParagraph" data-blurred="true" data-tgglon="true">
+      <div class="noBlur" data-blur="false">Some text that you should read.</div>
+      <div class="blur" data-blur="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a volutpat risus, eget consectetur lectus. Sed id neque convallis, pulvinar erat ut, dictum velit. Quisque molestie tristique purus in porta.
+        Fusce id finibus metus. Phasellus aliquam auctor tristique.
+      </div>
+      <br>
+      <div class="blur" data-blur="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a volutpat risus, eget consectetur lectus lectus.</div>
+      <div class="noBlur" data-blur="false">Some more text that is interesting,</div>
+      <div class="blur" data-blur="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a volutpat risus, eget consectetur lectus.</div>
+      <div class="noBlur" data-blur="false">Last bit of interesting text</div>
+      <div class="blur" data-blur="true"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a volutpat risus, eget consectetur lectus.</div>
+    </div>
+  </div>
+  <br>
+  <br>
+
+  <!-- second paragraph, can be wrapped -->
+  <div class="blurWrapper">
+    <div class="permissions">
+      <p class="blurTitle">More Interesting stuff.</p>
+      <input type="checkbox" class="inputToggle" id="switch2" name="switch2" value="switch2" checked>
+    </div>
+    <div id="paragraph2" class="blurParagraph" data-blurred="true" data-tgglon="true">
+      <div class="noBlur" data-blur="false">Some text that you should read.</div>
+      <div class="blur" data-blur="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a volutpat risus, eget consectetur lectus. Sed id neque convallis, pulvinar erat ut, dictum velit. Quisque molestie tristique purus in porta.
+        Fusce id finibus metus. Phasellus aliquam auctor tristique.
+      </div>
+      <br>
+      <div class="blur" data-blur="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a volutpat risus, eget consectetur lectus lectus.</div>
+      <div class="noBlur" data-blur="false">Some more text that is interesting,</div>
+      <div class="blur" data-blur="true">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a volutpat risus, eget consectetur lectus.</div>
+      <div class="noBlur" data-blur="false">Last bit of interesting text</div>
+      <div class="blur" data-blur="true"> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer a volutpat risus, eget consectetur lectus.</div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
